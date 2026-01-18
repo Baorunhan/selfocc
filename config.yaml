@@ -1,0 +1,8 @@
+backbone:
+  layers: [2, 2, 2, 2]
+  in_channels: 3
+  base_channels: 64
+neck:
+  type: CustomFPN
+  in_channels: [256, 512]
+  out_channels: 256
